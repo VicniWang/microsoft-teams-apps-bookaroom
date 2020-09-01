@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'book-a-room2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c7fcaeaa6a2f42b6acb5ea3f25f7967f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_240bf064f7524e1bafa97e860f2179b9 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
